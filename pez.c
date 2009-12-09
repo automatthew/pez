@@ -2311,7 +2311,7 @@ prim P_stack_to(pez_instance *p)
 */
 prim P_this_pez(pez_instance *p)
 {
-	Sl(1);
+	So(1);
 	Push = (pez_stackitem)p;
 }
 
