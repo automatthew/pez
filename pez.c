@@ -63,7 +63,6 @@
 #define WALKBACK		// Walkback trace
 #define WORDSUSED		// Logging of words used and unused
 
-#define TOK_BUF_SZ 128
 
 #endif				// !INDIVIDUALLY
 
@@ -1873,7 +1872,7 @@ prim P_ndots(pez_instance *p)
 	Sl(1);
 	n = S0;
 	Pop;
-
+	
 	if(depth == 0) {
 		printf("Stack is empty.\n");
 		return;
